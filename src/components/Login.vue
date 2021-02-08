@@ -68,7 +68,7 @@ export default {
         });
     },
     signUp(){
-      var signUpEndPoint = "auth/signUp"
+      var signUpEndPoint = "auth/signup"
       axios.post(this.baseUrl+signUpEndPoint, {
         "username": this.username,
         "password": this.password
